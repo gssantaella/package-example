@@ -1,27 +1,27 @@
-# package_name
+# exvec
 
 Description. 
-The package package_name is used to:
+The package exvec is used to:
 	- 
 	-
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install exvec
 
 ```bash
-pip install package_name
+pip install exvec
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from exvec import vector
+Vector2.create_from_points(Point2(1,0), Point2(0,0))
 ```
 
 ## Author
-My_name
+jyw
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
